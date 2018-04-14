@@ -8,7 +8,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-<title>Welcome</title>
+<title>Game</title>
 
 <!-- Custom styles for this template -->
 <link href="style.css" rel="stylesheet">
@@ -17,14 +17,27 @@
 <body>
   <div class="jumbotron jumbotron-fluid vertical-center">
     <div class="container container-fluid">
-      <h1 class="display-3">Welcome to GAME!</h1>
-      <p class="lead">This is a fun game with a cool description that I will eventually come up with.</p>
+      <h1>Enter Your Information Below</h1>
       <hr class="my-4">
-      <p>Click below to make a new game or join an existing game.</p>
+      <form>
+        <div class="form-group">
+          <label>Room Code</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter the room code">
+        </div>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label>Twitter Handle</label>
+          <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter your Twitter handle">
+        </div>
+      </form>
+      <div id="buttonUnderForm">
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Make game</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Join game</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Join the game!</a>
       </p>
+    </div>
     </div>
   </div>
 </body>

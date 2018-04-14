@@ -10,3 +10,7 @@ body{
   height: 100%;
   width: 100%;
 }
+
+#buttonUnderForm{
+  margin-top: 2rem;
+}
