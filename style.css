@@ -12,8 +12,20 @@ body{
 
 }
 
-.welcome{
+hr{
+  background-color: white;
+}
+
+.box{
+  padding: 5%;
+  background-color: white;
+}
+
+.dark-back{
   background-color: #838383;
+}
+
+.light-text{
   color: white;
 }
 
@@ -57,13 +69,17 @@ body{
 .roundButton{
 
   margin-top: .5rem;
-  width: 8rem;
-  height: 8rem;
-
+  width: 9rem;
+  height: 9rem;
+  border:5px solid white;
   vertical-align: middle;
 
 
 
+}
+
+.dark-hr{
+  background-color: black;
 }
 
 .roundButton:hover{
